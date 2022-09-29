@@ -196,6 +196,7 @@ img {
 
 .listado__elemento:hover {
     transform: scale(1.1);
+    cursor: grab
 }
 
 
@@ -344,7 +345,6 @@ img {
     box-shadow: 0px 0px 15px 3px rgb(0 0 0 / .15);
     background-color: var(--blanco);
     padding: 1rem;
-
     position: relative;
 }
 
@@ -393,4 +393,8 @@ img {
             width: 15%;
             
         }
+}
+
+.radius {
+    border-radius: 1rem;
 }
